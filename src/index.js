@@ -1,17 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import { FormCustomHook } from './Components/02-useEffect/FormCustomHook';
+import { MultipleCustomHooks } from './Components/03-examples/multipleCustomHooks';
+// import { CounterApp } from './Components/01-useState/CounterApp';
+// import { CouterWithCustomHook } from './Components/01-useState/CouterWithCustomHook';
+// import { SimpleForm } from './Components/02-useEffect/SimpleForm';
+// import { HookApp } from './HookApp';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const divRoot = document.querySelector('#root');
+ReactDOM.render(< MultipleCustomHooks/>,divRoot)
